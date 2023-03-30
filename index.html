@@ -8,5 +8,15 @@
 </head>
 <body>
     <P>欢迎孙子来到我的第一个在线网页</P>
+        <button id="dzs" onclick="dianZan()">0</button>
+    <script>
+        function dianZan(){
+            let dianZanshuBiaoQian = window.document.getElementById('dzs');
+            let dianZanShu = parseInt(dianZanshuBiaoQian.innerText);
+            let xinShuZi = dianZanShu +1;
+            dianZanshuBiaoQian.innerText =xinShuZi;
+            return
+        }
+    </script>
 </body>
 </html>
